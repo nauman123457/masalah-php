@@ -1,115 +1,84 @@
 <?php
-include "inc/header.php";
+include("inc/header.php");
 ?>
-    <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
-        <div class="container">
-           <?php include "inc/search.php";
-           ?>
-        </div>
-    </section>
-    <!-- Hero Section End -->
+<div id="content">
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                        <div class="breadcrumb__text">
-                            <h2>Contact Us</h2>
-                            <div class="breadcrumb__option">
-                                <a href="./index.html">Home</a>
-                                <span>Contact Us</span>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Breadcrumb Section End -->
+<div class="contact-content">
 
-    <!-- Contact Section Begin -->
-    <section class="contact spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
-                        <span class="icon_phone"></span>
-                        <h4>Phone</h4>
-                        <p>+01-3-8888-6868</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
-                        <span class="icon_pin_alt"></span>
-                        <h4>Address</h4>
-                        <p>60-49 Road 11378 New York</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
-                        <span class="icon_clock_alt"></span>
-                        <h4>Open time</h4>
-                        <p>10:00 am to 23:00 pm</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
-                    <div class="contact__widget">
-                        <span class="icon_mail_alt"></span>
-                        <h4>Email</h4>
-                        <p>hello@colorlib.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section End -->
 
-    <!-- Map Begin -->
     <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49116.39176087041!2d-86.41867791216099!3d39.69977417971648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca48c841038a1%3A0x70cfba96bf847f0!2sPlainfield%2C%20IN%2C%20USA!5e0!3m2!1sen!2sbd!4v1586106673811!5m2!1sen!2sbd"
-            height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div class="map-inside">
-            <i class="icon_pin"></i>
-            <div class="inside-widget">
-                <h4>New York</h4>
-                <ul>
-                    <li>Phone: +12-345-6789</li>
-                    <li>Add: 16 Creek Ave. Farmingdale, NY</li>
-                </ul>
-            </div>
-        </div>
+        <div id="map"></div>
     </div>
-    <!-- Map End -->
+    <!-- End Map -->
 
-    <!-- Contact Form Begin -->
-    <div class="contact-form spad">
+    <div class="contact">
         <div class="container">
+
+            <div class="title">
+                <h1><i class="fa fa-star"></i> Get in Touch <i class="fa fa-star"></i></h1>
+                <div class="title-border"></div>
+            </div>
+
+            <p class="subtitle">But unfortunately for most of us our role as gardener has never been explained to us. And in misunderstanding our role, we have allowed seeds of all types, both good and bad, to enter our inner garden.</p>
+
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact__form__title">
-                        <h2>Leave Message</h2>
-                    </div>
+
+                <div class="col-md-8">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form" action="#">
+                        <input name="name" id="name" type="text" placeholder="Name*">
+
+                        <input name="mail" id="mail" type="text"  placeholder="Email*">
+
+                        <input name="subject" id="subject" type="text"  placeholder="Subject">	
+
+                        <textarea name="comment" id="comment"  placeholder="Your Message*"></textarea>
+
+                          <input type="submit" value="Send"  id="submit_contact" class="medium-button button-red">
+                          <div id="msg" class="message"></div>
+                      </form>
+                </div>
+                <!-- end contactfort -->
+                <div class="col-md-4 touch">
+
+                    <h2>INFORMATION</h2>
+
+                    <p><i class="fa fa-map-marker"></i> Little Lonsdale St, Talay Victoria 8011 Philippines</p>
+                    <p><i class="fa fa-phone"></i> +1 (800) 888 5260 52 63</p>
+                    <a href="#"><p style="color: #ea5748;" class="mb40"><i class="fa fa-envelope"></i> samokhinteam@gmail.com</p></a>
+
+                    <h2>Business hours</h2>
+
+                    <p class="mb50">Monday – Friday: 9am to 20 pm	<br>
+                    Saturday: 9am to 17 pm	<br>
+                    Sunday: day off</p>
+                                                
+                    
+                    <h2>Stay Social</h2>							
+    
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+
                 </div>
             </div>
-            <form action="#">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your name">
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your Email">
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <textarea placeholder="Your message"></textarea>
-                        <button type="submit" class="site-btn">SEND MESSAGE</button>
-                    </div>
-                </div>
-            </form>
         </div>
+
     </div>
-    <!-- Contact Form End -->
-    <?php
-    include "inc/footer.php";
-    ?>
+
+</div>
+<!-- End Contact Content -->
+
+</div>s
+
+
+        
+
+<?php
+include("inc/footer.php");
+?>

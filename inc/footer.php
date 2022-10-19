@@ -1,83 +1,141 @@
- <!-- Footer Section Begin -->
- <footer class="footer spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
+		<footer>
+			<div class="inner-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="f-about">
+								<h1>ABOUT SHOP</h1>
+								<p class="mb20">We possess within us two minds. So far I have written only of the conscious mind.We further know that the subconscious has recorded every event. This is just perfect theme.</p>
+								<h1>NEWSLETTER</h1>
+								<form action="#">
+									<input type="text" placeholder="Your e-mail">
+									<input type="submit" value="">
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="infos">
+								<h1>Information</h1>
+								<ul>
+									<li><a href="#">• Our Stores</a></li>
+									<li><a href="#">• Delivery Information</a></li>
+									<li><a href="#">• About Us</a></li>
+									<li><a href="#">• Terms and Conditions</a></li>
+									<li><a href="#">• Privacy Policy</a></li>
+									<li><a href="#">• Contact Us</a></li>
+									<li><a href="#">• Returns</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="account">
+								<h1>My Account</h1>
+								<ul>
+									<li><a href="#">• My Account</a></li>
+									<li><a href="#">• Order History</a></li>
+									<li><a href="#">• My Wishlist</a></li>
+									<li><a href="#">• Specials</a></li>
+									<li><a href="#">• Track Order</a></li>
+									<li><a href="#">• Gift Vouchers</a></li>
+									<li><a href="#">• My Credit Slips</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="gettouch">
+								<h1>Get in Touch with us</h1>
+								<p><i class="fa fa-home"></i> Yangon City, Myanmar.</p>
+								<p><i class="fa fa-phone"></i> +95 995 5160 057</p>
+								<p class="mb20"><i class="fa fa-envelope"></i> krishnaram.tamil@gmail.com</p>
+								<h1>FIND US ON</h1>
+								<ul class="footer-socials">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div id="back-to-top">
+	          <a href="#top">Back to Top</a>
+	        </div>
+			</div>
+			<!-- end contanir & inner-footer -->
+			<div class="container">
+				<div class="last-div">
+					<div class="row">
+						<div class="copyright">
+							© 2019 Creative Pick Modern Shop  |  <a href="#">Designed by Krishna Ram</a>
+						</div>
+						<div class="payment">
+							<a href="#"><img src="upload/payments.png" alt=""></a>
+						</div>
+						<div class="clear"></div>
+					</div>
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+				</div>
+			</div>
 
 
 
+	        
+		</footer>
+		<!-- End footer -->
+
+
+
+        
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+     <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+	<!--
+	##############################
+	 - SWIPPER JS LIBERARY -
+	##############################
+	-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+  
+}
+</script>
+	
 </body>
-
 </html>

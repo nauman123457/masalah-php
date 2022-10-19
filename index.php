@@ -1,495 +1,185 @@
-<?php
-include("inc/header.php");
-?>
-    <!-- Header Section End -->
-
-    <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
-        <div class="container">
-            <?php 
-            include('inc/search.php');
-            ?>
-            <div class="row">
-            <div class="col-lg-12 mt-3">
-                <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
-                        <div class="hero__text">
-                            <span>FRUIT FRESH</span>
-                            <h2>Vegetable <br />100% Organic</h2>
-                            <p>Free Pickup and Delivery Available</p>
-                            <a href="#" class="primary-btn">SHOP NOW</a>
-                        </div>
+<?php include("inc/header.php");?>
+    <div class="slider-wraper">
+                <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner1-special.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="text">
+                        <p >VIRK TRADERS</p>
+                        <h1>Ensuring Quality of Life</h1>
+                        <a href="" class="my-btn ">Contact Us</a>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <img src="images/banner2-special.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="text">
+                    <p >VIRK TRADERS</p>
+                        <h1>Ensuring Quality of Life</h1>
+                        <a href="" class="my-btn ">Contact Us</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner3-special.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="text">
+                    <p >VIRK TRADERS</p>
+                        <h1>Ensuring Quality of Life</h1>
+                        <a href="" class="my-btn ">Contact Us</a>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-
-    <!-- Categories Section Begin -->
-    <section class="categories">
-        <div class="container">
-            <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="#">Fresh Fruit</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                            <h5><a href="#">Dried Fruit</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><a href="#">Vegetables</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><a href="#">drink fruits</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                            <h5><a href="#">drink fruits</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Categories Section End -->
-
-    <!-- Featured Section Begin -->
-    <section class="featured spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Featured Product</h2>
-                    </div>
-                    <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".oranges">Oranges</li>
-                            <li data-filter=".fresh-meat">Fresh Meat</li>
-                            <li data-filter=".vegetables">Vegetables</li>
-                            <li data-filter=".fastfood">Fastfood</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Featured Section End -->
-
-    <!-- Banner Begin -->
-    <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-2.jpg" alt="">
-                    </div>
-                </div>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
-    <!-- Banner End -->
+    <div class="introduction">
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-md-6">
+								<h1>introduction</h1>
+								<div class="intro-content">
+									<img src="upload/intro.jpg" alt="">
 
-    <!-- Latest Product Section Begin -->
-    <section class="latest-product spad">
+									<h4>10 years on the global market. We work since 1999.</h4>
+
+									<p>We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power and complexity that it literally staggers the imagination.</p>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<h1>our skills</h1>
+								
+								<div class="skills-progress">
+
+									<div class="progress-item">
+										<p>Creativeness <span>85%</span></p>
+										<div class="meter nostrips">
+											<span style="width: 85%"></span>
+										</div>
+									</div>
+
+									<div class="progress-item">
+										<p>Wordpress <span>65%</span></p>
+										<div class="meter nostrips">
+											<span style="width: 65%"></span>
+										</div>
+									</div>
+
+
+									<div class="progress-item">
+										<p>Web Design <span>93%</span></p>
+										<div class="meter nostrips">
+											<span style="width: 93%"></span>
+										</div>
+									</div>
+
+									<div class="progress-item">
+										<p>Awesomeness <span>90%</span></p>
+										<div class="meter nostrips">
+											<span style="width: 90%"></span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+	</div>
+    <section id="import">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Latest Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-12">
+                    <h1 class="text-center">Import</h1>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Top Rated Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <img src="images/image2.jpg" alt="" width="100%">
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Review Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                <div id="accordion-container" class="checkout-accordion"> 
+
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
                     </div>
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                    </div>
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                    </div>
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                    </div>
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                    </div>
+                    <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                    <div class="accordion-content"> 
+                        <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                    </div>
+
+
+
+                </div>
+                    <a href="" class="my-btn">View All </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Latest Product Section End -->
-
-    <!-- Blog Section Begin -->
-        <section class="from-blog spad">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title from-blog__title">
-                            <h2>From The Blog</h2>
-                        </div>
-                    </div>
+    <section id="export">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Export</h1>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="blog__item">
-                            <div class="blog__item__pic">
-                                <img src="img/blog/blog-1.jpg" alt="">
-                            </div>
-                            <div class="blog__item__text">
-                                <ul>
-                                    <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                    <li><i class="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                            </div>
+                
+                <div class="col-md-6">
+                    <div id="accordion-container" class="checkout-accordion"> 
+
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="blog__item">
-                            <div class="blog__item__pic">
-                                <img src="img/blog/blog-2.jpg" alt="">
-                            </div>
-                            <div class="blog__item__text">
-                                <ul>
-                                    <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                    <li><i class="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
-                                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                            </div>
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="blog__item">
-                            <div class="blog__item__pic">
-                                <img src="img/blog/blog-3.jpg" alt="">
-                            </div>
-                            <div class="blog__item__text">
-                                <ul>
-                                    <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                    <li><i class="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">Visit the clean farm in the US</a></h5>
-                                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                            </div>
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
                         </div>
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                        </div>
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                        </div>
+                        <h2 class="accordion-header">IT & Shed Fabrication Solutions</h2> 
+                        <div class="accordion-content"> 
+                            <p>BreedX concept of Integrated Smart Farming has changed the farming dynamics in Pakistan, BreedX offer complete range of IT & Structure Fabrication Solutions for Modern Livestock and Agriculture Farms, Warehouses and Sheds. BreedX is trendsetter in smart farming through digital gadgets smart application under controlled environment.</p>
+                        </div>
+
+
+
                     </div>
+                    <a href="" class="my-btn">View All </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/image2.jpg" alt="" width="100%">
                 </div>
             </div>
-        </section>
-    <!-- Blog Section End -->
-
-   <?php
-   include("inc/footer.php");
-    ?>
+        </div>
+    </section>
+    <?php include("inc/footer.php");?>
