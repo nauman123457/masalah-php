@@ -3,7 +3,7 @@
                 <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="images/banner1-special.jpg" alt="">
+                    <img src="images/banner-1.jpg" alt="">
                     <div class="overlay"></div>
                     <div class="text">
                         <p >VIRK TRADERS</p>
@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="images/banner2-special.jpg" alt="">
+                    <img src="images/banner-2.jpg" alt="">
                     <div class="overlay"></div>
                     <div class="text">
                     <p >VIRK TRADERS</p>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="images/banner3-special.jpg" alt="">
+                    <img src="images/banner-3.jpg" alt="">
                     <div class="overlay"></div>
                     <div class="text">
                     <p >VIRK TRADERS</p>
@@ -38,54 +38,26 @@
     <div class="introduction">
 					<div class="container">
 						<div class="row">
-							
+                            <div class="col-md-6">
+                            <img src="upload/intro.jpg" alt="image" width="100%">
+                            </div>
 							<div class="col-md-6">
-								<h1>introduction</h1>
+								<h1>About Virk Traders</h1>
 								<div class="intro-content">
-									<img src="upload/intro.jpg" alt="">
-
 									<h4>10 years on the global market. We work since 1999.</h4>
+									<p class="mb-5">We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power and complexity that it literally staggers the imagination.</p>
+                                    <h4>Our Company</h4>
+                                    <p>
+                                    Company was founded in 2016 to offer one window solution for Integrated Smart Agriculture and Livestock Farming in Pakistan and provide an enormous trading platform for producer and manufacturer across the continents.
 
-									<p>We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power and complexity that it literally staggers the imagination.</p>
+                                    Since 2016 BreedX® improving and concerning the livestock business through its complete range of products and solutions for integrated farm management. BreedX Vision and expert management incorporating latest trends and has developed IT solutions for ultimate production and packaging solutions.
+                                    </p>
+                                    <a href="about.php" class="my-btn">View More</a>
 								</div>
 							</div>
+                            
 
-							<div class="col-md-6">
-								<h1>our skills</h1>
-								
-								<div class="skills-progress">
-
-									<div class="progress-item">
-										<p>Creativeness <span>85%</span></p>
-										<div class="meter nostrips">
-											<span style="width: 85%"></span>
-										</div>
-									</div>
-
-									<div class="progress-item">
-										<p>Wordpress <span>65%</span></p>
-										<div class="meter nostrips">
-											<span style="width: 65%"></span>
-										</div>
-									</div>
-
-
-									<div class="progress-item">
-										<p>Web Design <span>93%</span></p>
-										<div class="meter nostrips">
-											<span style="width: 93%"></span>
-										</div>
-									</div>
-
-									<div class="progress-item">
-										<p>Awesomeness <span>90%</span></p>
-										<div class="meter nostrips">
-											<span style="width: 90%"></span>
-										</div>
-									</div>
-
-								</div>
-							</div>
+							
 
 
 						</div>
