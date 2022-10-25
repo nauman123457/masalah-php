@@ -124,3 +124,8 @@
   .client-slider-wraper img{
 	object-fit: contain;
   }
+  /* card slider */
+  .my-card-slider{
+	height: 500px;
+	padding: 50px 0px;
+  }

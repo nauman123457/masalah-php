@@ -180,7 +180,7 @@
 								Cart Subtotal: <span>$ 4 372</span>
 							</div>
 
-							<button class="viewcard"> View Cart</button>
+							<a class="viewcard" href="cart.php"> View Cart</a>
 							<button class="proceedcard"> Proceed</button>
 
 						</div>
@@ -200,13 +200,17 @@
 					<ul id="navlist" class="sf-menu clearfix">
 						<li class="current"><a href="index.php">Home</a></li>
 						<li><a href="shop.php">Shop</a></li>
+						<li><a href="about.php">About</a></li>
 						<li>
                             <a href="">Portfolio</a>
                             <ul class="sub-menu">
-								<li><a href="">Import</a></li>
+								<li><a href="import.php">Import</a></li>
+								<li><a href="export.php">Export</a></li>
+								<li><a href="packaging-solutions.php">Packaging Solutions</a></li>
 								
 							</ul>
                         </li>
+						<li><a href="services.php">Services</a></li>
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
