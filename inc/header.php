@@ -1,3 +1,5 @@
+<?php include("classes/all_function.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

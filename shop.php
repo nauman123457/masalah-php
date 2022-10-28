@@ -13,16 +13,12 @@ include("inc/header.php");
                     <h1 class="asidetitle">Categories</h1>
 
                     <ul>
-                        <li><a href="#">Women	<span>(25)</span></a></li>
-                        <li><a href="#">Men	<span>(235)</span></a></li>
-                        <li><a href="#">Bags	<span>(89)</span></a></li>
-                        <li><a href="#">Shoes	<span>(109)</span></a></li>
-                        <li><a href="#">Jeans	<span>(129)</span></a></li>
-                        <li><a href="#">Accessories	<span>(123)</span></a></li>
+                        <li><a href="#">Masalah	<span>(25)</span></a></li>
+
                     </ul>
                 </div>
 
-                <div class="shop-price mb30">
+                <!-- <div class="shop-price mb30">
                     <h1 class="asidetitle">Price</h1>
 
 
@@ -34,9 +30,9 @@ include("inc/header.php");
                     <div id="slider-range"></div>
 
 
-                </div>
+                </div> -->
 
-                <div class="brands mb30">
+              <!--   <div class="brands mb30">
                     <h1 class="asidetitle">Colors</h1>
                     
                     <form action="#">
@@ -50,8 +46,8 @@ include("inc/header.php");
                     </form>
                     
                 </div>
-
-                <div class="brands mb30">
+ -->
+                <!-- <div class="brands mb30">
                     <h1 class="asidetitle">Sizes</h1>
                     
                     <form action="#">
@@ -83,7 +79,7 @@ include("inc/header.php");
                     </ul>
                     </form>
                     
-                </div>
+                </div> -->
 
                 <div class="tags mb10">
                     <h1 class="asidetitle">Tags</h1>
@@ -110,17 +106,19 @@ include("inc/header.php");
                       <label>Sort by</label>
                       <select class="selectBox">
                         <option>Default Sorting</option>
-                        <option>Price</option>
                         <option>High To Low</option>
                         <option>Low To High</option>
                       </select>
                     </div>
                     <div class="sort-select">
                       <label>Show</label>
-                      <select class="selectBox">
-                        <option>12</option>
-                        <option>16</option>
+                      <select name="show" id="show" class="selectBox" onchange="products_list();">
+                        <option>5</option>
+                        <option>10</option>
                         <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
                       </select>
                     </div>
                     <div class="lg-panel htabs">
@@ -130,241 +128,10 @@ include("inc/header.php");
                     </div>
                 </div>
 
-                <div class="row shop-grid">
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival1.jpg" alt="">
-                            <img src="upload/sale.png" alt="" class="sale"> 
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival2.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival3.jpg" alt="">
-                            <img src="upload/out.png" alt="" class="out">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
+                <div class="row shop-grid" id="products">
+                  
                 </div>
-
-                <div class="row shop-grid">
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival4.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival5.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival6.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row shop-grid">
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival7.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival8.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival9.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row shop-grid">
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival1.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival2.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 grid-item mb30">
-                        <div class="arrival-overlay">
-                            <img src="upload/arrival3.jpg" alt="">
-                            <div class="arrival-mask">
-                                <a href="#" class="medium-button button-red add-cart">Add to Cart</a>
-                                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
-                                <a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a>
-                            </div>
-                        </div>
-                        <div class="arr-content">
-                            <p>Brown Coat</p>
-                            <ul>
-                                <li><span class="high-price">$1899.00</span></li>
-                                <li><span class="low-price">$899.00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="shop-pag">
+                <!-- <div class="shop-pag">
                     <p class="pag-p">Items <span>1 to 12</span> of 78 Total</p>
 
                     <div class="right-pag">
@@ -390,7 +157,7 @@ include("inc/header.php");
                         <div class="clear"></div>
                     </div>
                     <div class="clear"></div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -401,3 +168,22 @@ include("inc/header.php");
 <?php
 include("inc/footer.php");
 ?>
+<script type="text/javascript">
+$(document).ready(function(){
+    products_list();
+});
+function products_list(){
+    var show = $("#show").val();
+    $.ajax({
+        url: "ajax/list_products.php",
+        method: "POST",
+        data: {show:show},
+        beforeSend: function(){
+            $('#products').text("Getting Record....");
+        },
+        success: function(data){
+            $('#products').html(data);
+        }
+    });
+}
+</script>
